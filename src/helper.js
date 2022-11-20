@@ -1,13 +1,13 @@
 import { Icon } from "leaflet";
 
-export const defaultLogo = new Icon({
-  iconUrl: "https://img.icons8.com/officel/80/null/marker.png",
-  iconSize: [40, 40],
+const defaultLogo = new Icon({
+  iconUrl: "https://unpkg.com/leaflet@1.9.1/dist/images/marker-icon.png",
+  iconSize: [25, 40],
 });
 
 const truckLogo = new Icon({
-  iconUrl: "https://unpkg.com/leaflet@1.9.1/dist/images/marker-icon.png",
-  iconSize: [25, 40],
+  iconUrl: "https://img.icons8.com/officel/80/null/marker.png",
+  iconSize: [40, 40],
 });
 
 const pushCartLogo = new Icon({
