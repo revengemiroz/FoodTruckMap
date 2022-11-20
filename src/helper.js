@@ -11,8 +11,8 @@ const truckLogo = new Icon({
 });
 
 const pushCartLogo = new Icon({
-  iconUrl: "https://img.icons8.com/glyph-neue/64/null/visit.png",
-  iconSize: [35, 45],
+  iconUrl: "https://i.ibb.co/y4tbSCc/placeholder.png",
+  iconSize: [45, 45],
 });
 
 export const formatDate = (date) => {
